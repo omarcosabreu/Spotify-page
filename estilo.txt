@@ -1,0 +1,52 @@
+
+
+
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 60%;
+  margin: auto;
+  font-weight: bold;
+  color: #919496;
+  font-size: 0.75rem;
+  padding-top: 50px;
+}
+
+.footer-info .footer-info-items {
+  display: flex;
+  list-style: none;
+}
+
+.footer-info .footer-info-items .footer-info-item {
+  margin: 0 10px;
+  transition: all 300ms ease;
+}
+
+.footer-info .footer-info-items .footer-info-item:hover {
+  color: #1db954;
+  cursor: pointer;
+}
+
+.footer-info .rights .country {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.footer-info .rights .country p {
+  transition: all 300ms ease;
+}
+
+.footer-info .rights .country p:hover {
+  color: #1db954;
+  cursor: pointer;
+}
+
+.footer-info .rights .country .brazil-flag {
+  height: 20px;
+  width: auto;
+  display: inline-block;
+  margin-left: 10px;
+}
